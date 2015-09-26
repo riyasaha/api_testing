@@ -1,0 +1,203 @@
+.sf-circle .sf-nav-number {
+  position: absolute;
+  margin-left: -35px;
+  top: 0;
+  left: 50%;
+  font-size: 30px;
+  line-height: 66px;
+  font-weight: 800;
+  height: 70px;
+  width: 70px;
+  border-radius: 70px;
+  border: 1px solid #cfcfcf;
+  text-align: center;
+  color: #929292;
+}
+
+.mCSB_container.mCS_no_scrollbar {
+  margin-right: -10px !important;
+}
+
+
+.ng-pristine {height:35px;}
+.test{
+  -webkit-transform-origin-x: 90%;
+  -webkit-transform-origin-y: 35%;
+  -webkit-transform-origin-z: initial;
+  -ms-animation: wrench 2.5s ease infinite;
+  -ms-transform-origin-x: 90%;
+  -ms-transform-origin-y: 35%;
+  -ms-transform-origin-z: initial;
+  animation: wrench 2.5s ease;}
+
+.sf-sky .sf-wizard > form {
+  background: transparent;
+  padding-top: 30px !important;
+}
+
+.sf-sky .sf-nav li {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #adb3b8;
+  background: #E0E0E0;
+  height: 52px;
+  line-height: 42px;
+  padding: 0 40px;
+  text-align: center;
+  border-radius: 30px;
+  margin-right: 30px ;
+  margin-left: 20px !important;
+  font-weight: 700 !important;
+}
+
+
+.loginbg{
+background-color: rgba(255, 255, 255, 0.23);
+}
+.fontcolor{
+
+	color:#fff;
+}
+
+.switch-label:after {
+  left: 4px !important;
+
+}
+.main-content {
+  margin-left: 240px;
+}
+
+.main-content .page-content {
+    background: #D5E6EA !important;
+
+}
+
+
+.sf-circle .sf-nav .sf-nav-number:after {
+  content: "";
+
+  background: #FFFFFF !important;
+}
+
+
+
+.sf-circle .sf-nav-number:before {
+ 
+  background: #ffffff !important;
+}
+
+
+
+
+
+
+.main-content .page-wizard.page-content {
+  background:#D5E6EA !important;
+
+}
+
+
+
+.main-content .page-content {
+  margin-top: 50px;
+  /* overflow: hidden; */
+  padding: 20px 50px 0;
+  position: relative;
+  height: auto !important;
+}
+
+
+
+.header, .main-content .page-content > div > .header {
+padding: 0px 0 !important;
+
+
+.box{
+	float:left; padding-left:20px; padding-right:30px; padding-top:10px; background-color: #fff; 
+}
+
+
+.builder .builder-toggle {
+
+  top: 23% !important;
+
+  cursor: pointer;
+  font-size: 16px;
+  height: 50px;
+  left: -48px;
+  line-height: 50px;
+  padding-top: 16px !important;
+  position: absolute;
+  text-align: center;
+  width: 54px;
+  z-index: 1010;
+}
+ 
+
+ .enter-page         {  
+    -webkit-animation:scaleUp 0.5s both ease-in;
+    -moz-animation:scaleUp 0.5s both ease-in;
+    animation:scaleUp 0.5s both ease-in;
+}
+.page-rotate        {  
+    -webkit-animation:Rotate 0.5s both ease-in;
+    -moz-animation:Rotate 0.5s both ease-in;
+    animation:Rotate 0.5s both ease-in;    
+}
+.page-rotate-delay      {
+    -webkit-animation:RotateDelay 1s both ease-in;
+    -moz-animation:RotateDelay 1s both ease-in;
+    animation:RotateDelay 1s both ease-in;
+}
+.page-rotatey      {  
+    -webkit-animation:RotateY 0.5s both ease-in;
+    -moz-animation:RotateY 0.5s both ease-in;
+    animation:RotateY 0.5s both ease-in;    
+}
+
+
+/* scale up */
+@keyframes scaleUp {
+    from        { opacity: 0.3; -webkit-transform: scale(0.8); }
+}
+@-moz-keyframes scaleUp {
+    from        { opacity: 0.3; -moz-transform: scale(0.8); }
+}
+@-webkit-keyframes scaleUp {
+    from        { opacity: 0.3; -webkit-transform: scale(0.8); }
+}
+
+
+/* Rotate */
+@keyframes Rotate {
+    from        { opacity: 0.3; -webkit-transform: rotateX(120deg); }
+}
+@-moz-keyframes Rotate {
+    from        { opacity: 0.3; -moz-transform: rotateX(120deg); }
+}
+@-webkit-keyframes Rotate {
+    from        { opacity: 0.3; -webkit-transform: rotateX(120deg); }
+}
+
+/* RotateDelay */
+@keyframes RotateDelay {
+    from        { opacity: 0.3; -webkit-transform: rotateX(120deg); }
+}
+@-moz-keyframes RotateDelay {
+    from        { opacity: 0.3; -moz-transform: rotateX(120deg); }
+}
+@-webkit-keyframes RotateDelay {
+    from        { opacity: 0.3; -webkit-transform: rotateX(120deg); }
+}
+
+
+/* RotateY */
+@keyframes RotateY {
+    from        { opacity: 0.3; -webkit-transform: rotateY(120deg); }
+}
+@-moz-keyframes RotateY {
+    from        { opacity: 0.3; -moz-transform: rotateY(120deg); }
+}
+@-webkit-keyframes RotateY {
+    from        { opacity: 0.3; -webkit-transform: rotateY(120deg); }
+}

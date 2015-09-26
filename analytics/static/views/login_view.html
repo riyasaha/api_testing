@@ -1,0 +1,41 @@
+
+    <div class="container" id="login-block">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-md-offset-4" >
+                    <div class="account-wall loginbg">
+                        <i class="user-img icons-faces-users-03"></i>
+                        <form class="form-signin" role="form" data-ng-show="showDiv">
+                            <span class="fontcolor" data-ng-bind="loginerror">  </span>
+                            <div class="append-icon">
+                                <input type="text" ng-enter="do_login()"  name="name" id="name" class="form-control form-white username" placeholder="Username" data-ng-model="username" required>
+                                <i class="icon-user"></i>
+                            </div>
+                            <div class="append-icon m-b-20">
+                                <input type="password" ng-enter="do_login()"  name="password" class="form-control form-white password" data-ng-model="password" placeholder="Password" required>
+                                <i class="icon-lock"></i>
+                                <p class="pull-right m-t-20"><a style="cursor:pointer" id="password" data-ng-click="showdiv('forgotpass')">Forgot password?</a></p>
+                            </div>
+                            <button type="submit" data-ng-click="do_login()"  id="submit-form" class="btn btn-lg btn-danger btn-block ladda-button" data-style="expand-left">Sign In</button>
+                            
+                            <div class="clearfix">
+
+                               <p class="pull-left m-t-20" style="margin-left: 33%;"><a style="cursor:pointer">New here? Sign up</a></p>
+
+                            </div>
+                        </form>
+                        <form class="form-password fontcolor" role="form" data-ng-hide="showDiv">
+                            Enter your username below to reset your password and we will send password for your registered email.
+
+                            <div class="append-icon m-b-20">
+                                 <p style="color:red" data-ng-bind="forget_pass_error_msg"></p>
+                                <input type="password" name="forgot_pass_username" data-ng-model="forgot_pass_username" class="form-control form-white password" placeholder="username" required>
+                                <i class="icon-lock"></i>
+                            </div>
+                            <button type="submit" id="submit-password" class="btn btn-lg btn-danger btn-block ladda-button" data-ng-click="forgot_password()" data-ng-disabled="!forgot_pass_username" data-style="expand-left">Send Password Reset Link</button>
+                            <div class="clearfix">
+                                <p class="pull-left m-t-20"><a id="login" data-ng-click="showdiv('signin')">Already got an account?<span style="cursor:pointer  "> Sign In </span></a></p>
+                                <p class="pull-right m-t-20"><a href="user-signup-v1.html">New here? Sign up</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </div></div></div>
